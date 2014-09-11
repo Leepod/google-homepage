@@ -1,0 +1,96 @@
+body, html {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	height: 100%;
+}
+.navbar {
+	height: 29px;
+	background-color: #2D2D2D;
+	color: #FFF;
+	font-size: 13px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	text-align: right;
+}
+.navbar ul{
+	list-style-type: none;
+}
+.navbar ul li {
+	display: inline-block;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #FFF;
+	position: relative;
+	z-index: 900;
+	margin: 0 5px 0px 5px;
+	top: -4px;
+}
+.navbar ul li a:hover{
+	text-decoration: underline;
+}
+.footer {
+	height: 40px;
+	background-color: #F2F2F2;
+	font-size: 10pt;
+	display: block;
+	bottom: 0;
+	border-top: 1px solid #E4E4E4;
+}
+.ftleftlinks {
+	position: absolute;
+	left: -10px;
+	bottom: -13px;
+}
+.ftleftlinks li  {
+	display: inline-block;
+	font-family: Arial;
+	line-height: 40px
+}
+.ftleftlinks li a {
+	text-decoration: none;
+	color: #666;
+	margin: 0 12px 0 12px;	
+}
+.ftleftlinks li a:hover {
+	text-decoration: underline;
+}
+.ftrightlinks {
+	position: absolute;
+	right: 25px;
+	bottom: -13px;
+}
+.ftrightlinks li  {
+	display: inline-block;
+	font-family: Arial;
+	line-height: 40px
+}
+.ftrightlinks li a {
+	text-decoration: none;
+	text-align:right;
+	color: #666;
+	margin: 0 12px 0 12px;
+}
+.ftrightlinks li a:hover {
+	text-decoration: underline;
+}
+.main_body {
+	height: 632px;
+}
+#logo img {
+	width: 269px;
+	height: 96px;
+	margin: 0 auto;
+	position: relative;
+	top: 240px;
+}
+.search_input {
+	position: relative;
+	top: 260px;
+}
+#text_area {
+	margin: 0 0 15px 0;
+}
